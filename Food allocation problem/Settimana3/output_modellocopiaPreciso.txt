@@ -1,0 +1,2042 @@
+Tempo totale di esecuzione: 21605.33 secondi
+
+Pesi della funzione obiettivo
+Azzeramento partita: 1000.0
+Peso scelta dei prodotti: 1000.0
+Peso assegnazione in piani: 100.0
+Peso assegnazione valori nutrizionali: 1e-05
+Peso assegnazione differenza di dimensione struttura: 10.0
+Totale prodotti selezionati: 6.0
+
+Best objective 7.791459045222e+02, best bound 6.790987012939e+02, gap 12.8406%
+
+Prodotto: F01302A
+  Partita 0008345707: z = 1.0
+
+Prodotto: E02301A
+
+Prodotto: A01300A
+
+Prodotto: J01301A
+
+Prodotto: I03302A
+  Partita 0008394903: z = 1.0
+
+Prodotto: C01300A
+  Partita 0008344557: z = 1.0
+
+Prodotto: D03301A
+  Partita 0008316259: z = 1.0
+
+Prodotto: D02300A
+  Partita 0008149324: z = 1.0
+  Partita 0008207508: z = 1.0
+
+Prodotto: E03301A
+  Partita 0008315717: z = 1.0
+
+Prodotto: E04300A
+
+
+--- EPSILON GLOBALI ---
+eps_prod = 0.0000
+
+
+--- RISULTATI NUTRIZIONALI PER STRUTTURA ---
+
+Struttura: 102623
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 439347.2, calorie richieste: 2835000 
+  Carboidrati totali (kcal): 197706.24000000002 <= 275212.8 <= 263608.32
+  Proteine totali (kcal):   65902.08 <= 75276.80000000002 <= 87869.44
+  Grassi totali (kcal):     87869.44 <= 57882.240000000005 <= 131804.16
+  Zuccheri totali:          37808.0 <= 17200.8
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 63 
+Peso totale: 651.52
+
+  --- Epsilon (slack) ---
+  eps_car[102623]   = 1160.4480
+  eps_gr[102623]    = 2998.7200
+  eps_prot[102623]  = 0.0000
+  eps_zuc[102623]   = 2060.7200
+  epsilon_rich[102623] = 0.8450
+
+
+Struttura: 112382
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1901246.4, calorie richieste: 15345000 
+  Carboidrati totali (kcal): 855560.88 <= 1301504.64 <= 1140747.8399999999
+  Proteine totali (kcal):   285186.95999999996 <= 281976.96 <= 380249.28
+  Grassi totali (kcal):     380249.28 <= 233820.0 <= 570373.9199999999
+  Zuccheri totali:          122126.4 <= 81344.04000000001
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 341 
+Peso totale: 1605.6
+
+  --- Epsilon (slack) ---
+  eps_car[112382]   = 16075.6800
+  eps_gr[112382]    = 14642.9280
+  eps_prot[112382]  = 321.0000
+  eps_zuc[112382]   = 4078.2360
+  epsilon_rich[112382] = 0.8761
+
+
+Struttura: 102175
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1630701.6, calorie richieste: 21690000 
+  Carboidrati totali (kcal): 733815.7200000001 <= 1076076.48 <= 978420.96
+  Proteine totali (kcal):   244605.24 <= 250038.72 <= 326140.32000000007
+  Grassi totali (kcal):     326140.32000000007 <= 224750.16 <= 489210.48
+  Zuccheri totali:          119800.8 <= 67254.78
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 482 
+Peso totale: 1528.08
+
+  --- Epsilon (slack) ---
+  eps_car[102175]   = 9765.5520
+  eps_gr[102175]    = 10139.0160
+  eps_prot[102175]  = 0.0000
+  eps_zuc[102175]   = 5254.6020
+  epsilon_rich[102175] = 0.9248
+
+
+Struttura: 102651
+  Peso soddisfazione richiesta: 100 
+  Calorie totali: 2367374.4, calorie richieste: 43245000 
+  Carboidrati totali (kcal): 1065318.48 <= 1750784.64 <= 1420424.64
+  Proteine totali (kcal):   355106.16 <= 285720.96 <= 473474.88
+  Grassi totali (kcal):     473474.88 <= 235504.80000000002 <= 710212.32
+  Zuccheri totali:          225086.4 <= 109424.04000000001
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 961 
+Peso totale: 1792.8
+
+  --- Epsilon (slack) ---
+  eps_car[102651]   = 33036.0000
+  eps_gr[102651]    = 23797.0080
+  eps_prot[102651]  = 6938.5200
+  eps_zuc[102651]   = 11566.2360
+  epsilon_rich[102651] = 0.9453
+
+
+Struttura: 102652
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1757528.0, calorie richieste: 17640000 
+  Carboidrati totali (kcal): 790887.6 <= 1198285.44 <= 1054516.8
+  Proteine totali (kcal):   263629.2 <= 266207.36 <= 351505.60000000003
+  Grassi totali (kcal):     351505.60000000003 <= 211885.92 <= 527258.4
+  Zuccheri totali:          119259.2 <= 74892.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 392 
+Peso totale: 1569.76
+
+  --- Epsilon (slack) ---
+  eps_car[102652]   = 14376.8640
+  eps_gr[102652]    = 13961.9680
+  eps_prot[102652]  = 0.0000
+  eps_zuc[102652]   = 4436.6360
+  epsilon_rich[102652] = 0.9004
+
+
+Struttura: 102322
+  Peso soddisfazione richiesta: 100 
+  Calorie totali: 2367374.4, calorie richieste: 26280000 
+  Carboidrati totali (kcal): 1065318.48 <= 1750784.64 <= 1420424.64
+  Proteine totali (kcal):   355106.16 <= 285720.96 <= 473474.88
+  Grassi totali (kcal):     473474.88 <= 235504.80000000002 <= 710212.32
+  Zuccheri totali:          225086.4 <= 109424.04000000001
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 584 
+Peso totale: 1792.8
+
+  --- Epsilon (slack) ---
+  eps_car[102322]   = 33036.0000
+  eps_gr[102322]    = 23797.0080
+  eps_prot[102322]  = 6938.5200
+  eps_zuc[102322]   = 11566.2360
+  epsilon_rich[102322] = 0.9099
+
+
+Struttura: 102525
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 6255000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 139 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102525]   = 638.8800
+  eps_gr[102525]    = 5899.8880
+  eps_prot[102525]  = 0.0000
+  eps_zuc[102525]   = 976.9160
+  epsilon_rich[102525] = 0.8678
+
+
+Struttura: 102596
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 1034110.4, calorie richieste: 6165000 
+  Carboidrati totali (kcal): 465349.68 <= 628179.84 <= 620466.24
+  Proteine totali (kcal):   155116.56 <= 189253.75999999998 <= 206822.08000000002
+  Grassi totali (kcal):     206822.08000000002 <= 148140.0 <= 310233.12
+  Zuccheri totali:          71134.4 <= 39261.24
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 137 
+Peso totale: 1228.0
+
+  --- Epsilon (slack) ---
+  eps_car[102596]   = 771.3600
+  eps_gr[102596]    = 5868.2080
+  eps_prot[102596]  = 0.0000
+  eps_zuc[102596]   = 3187.3160
+  epsilon_rich[102596] = 0.8323
+
+
+Struttura: 102419
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 880995.2, calorie richieste: 4725000 
+  Carboidrati totali (kcal): 396447.83999999997 <= 528768.0 <= 528597.12
+  Proteine totali (kcal):   132149.28 <= 160736.0 <= 176199.04
+  Grassi totali (kcal):     176199.04 <= 124539.84000000001 <= 264298.56
+  Zuccheri totali:          63344.0 <= 33048.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 105 
+Peso totale: 1059.52
+
+  --- Epsilon (slack) ---
+  eps_car[102419]   = 17.0880
+  eps_gr[102419]    = 5165.9200
+  eps_prot[102419]  = 0.0000
+  eps_zuc[102419]   = 3029.6000
+  epsilon_rich[102419] = 0.8135
+
+
+Struttura: 102450
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 6075000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 135 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102450]   = 638.8800
+  eps_gr[102450]    = 5899.8880
+  eps_prot[102450]  = 0.0000
+  eps_zuc[102450]   = 976.9160
+  epsilon_rich[102450] = 0.8639
+
+
+Struttura: 102506
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 815233.6000000001, calorie richieste: 6480000 
+  Carboidrati totali (kcal): 366855.12000000005 <= 473581.44 <= 489140.16000000003
+  Proteine totali (kcal):   122285.04000000001 <= 159026.56 <= 163046.72000000003
+  Grassi totali (kcal):     163046.72000000003 <= 117073.44 <= 244570.08000000002
+  Zuccheri totali:          24136.0 <= 29598.84
+  Grassi (difetto)
+
+Numero assistiti: 144 
+Peso totale: 895.52
+
+  --- Epsilon (slack) ---
+  eps_car[102506]   = 0.0000
+  eps_gr[102506]    = 4597.3280
+  eps_prot[102506]  = 0.0000
+  eps_zuc[102506]   = 0.0000
+  epsilon_rich[102506] = 0.8742
+
+
+Struttura: 120483
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 771742.4, calorie richieste: 3240000 
+  Carboidrati totali (kcal): 347284.08 <= 466669.43999999994 <= 463045.44
+  Proteine totali (kcal):   115761.36 <= 141676.16 <= 154348.48
+  Grassi totali (kcal):     154348.48 <= 104335.20000000001 <= 231522.72
+  Zuccheri totali:          32196.8 <= 29166.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 72 
+Peso totale: 680.8
+
+  --- Epsilon (slack) ---
+  eps_car[120483]   = 362.4000
+  eps_gr[120483]    = 5001.3280
+  eps_prot[120483]  = 0.0000
+  eps_zuc[120483]   = 302.9960
+  epsilon_rich[120483] = 0.7618
+
+
+Struttura: 102296
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 966577.6000000001, calorie richieste: 4995000 
+  Carboidrati totali (kcal): 434959.92000000004 <= 582445.44 <= 579946.56
+  Proteine totali (kcal):   144986.64 <= 178130.56 <= 193315.52000000002
+  Grassi totali (kcal):     193315.52000000002 <= 138111.84000000003 <= 289973.28
+  Zuccheri totali:          49672.0 <= 36402.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 111 
+Peso totale: 1073.12
+
+  --- Epsilon (slack) ---
+  eps_car[102296]   = 249.8880
+  eps_gr[102296]    = 5520.3680
+  eps_prot[102296]  = 0.0000
+  eps_zuc[102296]   = 1326.9160
+  epsilon_rich[102296] = 0.8065
+
+
+Struttura: 102300
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 757918.4, calorie richieste: 2475000 
+  Carboidrati totali (kcal): 341063.28 <= 457683.83999999997 <= 454751.04
+  Proteine totali (kcal):   113687.76 <= 139141.75999999998 <= 151583.68000000002
+  Grassi totali (kcal):     151583.68000000002 <= 103816.8 <= 227375.52
+  Zuccheri totali:          29950.4 <= 28605.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 55 
+Peso totale: 623.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102300]   = 293.2800
+  eps_gr[102300]    = 4776.6880
+  eps_prot[102300]  = 0.0000
+  eps_zuc[102300]   = 134.5160
+  epsilon_rich[102300] = 0.6938
+
+
+Struttura: 102241
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 771742.4, calorie richieste: 2160000 
+  Carboidrati totali (kcal): 347284.08 <= 466669.43999999994 <= 463045.44
+  Proteine totali (kcal):   115761.36 <= 141676.16 <= 154348.48
+  Grassi totali (kcal):     154348.48 <= 104335.20000000001 <= 231522.72
+  Zuccheri totali:          32196.8 <= 29166.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 48 
+Peso totale: 680.8
+
+  --- Epsilon (slack) ---
+  eps_car[102241]   = 362.4000
+  eps_gr[102241]    = 5001.3280
+  eps_prot[102241]  = 0.0000
+  eps_zuc[102241]   = 302.9960
+  epsilon_rich[102241] = 0.6427
+
+
+Struttura: 102674
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 751006.4, calorie richieste: 1935000 
+  Carboidrati totali (kcal): 337952.88 <= 453191.04 <= 450603.84
+  Proteine totali (kcal):   112650.96 <= 137874.56 <= 150201.28
+  Grassi totali (kcal):     150201.28 <= 103557.6 <= 225301.92
+  Zuccheri totali:          28827.2 <= 28324.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 43 
+Peso totale: 594.4
+
+  --- Epsilon (slack) ---
+  eps_car[102674]   = 258.7200
+  eps_gr[102674]    = 4664.3680
+  eps_prot[102674]  = 0.0000
+  eps_zuc[102674]   = 50.2760
+  epsilon_rich[102674] = 0.6119
+
+
+Struttura: 102173
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 7650000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 170 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102173]   = 638.8800
+  eps_gr[102173]    = 5899.8880
+  eps_prot[102173]  = 0.0000
+  eps_zuc[102173]   = 976.9160
+  epsilon_rich[102173] = 0.8919
+
+
+Struttura: 102184
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 4635000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 103 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102184]   = 638.8800
+  eps_gr[102184]    = 5899.8880
+  eps_prot[102184]  = 0.0000
+  eps_zuc[102184]   = 976.9160
+  epsilon_rich[102184] = 0.8216
+
+
+Struttura: 102230
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1901246.4, calorie richieste: 14265000 
+  Carboidrati totali (kcal): 855560.88 <= 1301504.64 <= 1140747.8399999999
+  Proteine totali (kcal):   285186.95999999996 <= 281976.96 <= 380249.28
+  Grassi totali (kcal):     380249.28 <= 233820.0 <= 570373.9199999999
+  Zuccheri totali:          122126.4 <= 81344.04000000001
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 317 
+Peso totale: 1605.6
+
+  --- Epsilon (slack) ---
+  eps_car[102230]   = 16075.6800
+  eps_gr[102230]    = 14642.9280
+  eps_prot[102230]  = 321.0000
+  eps_zuc[102230]   = 4078.2360
+  epsilon_rich[102230] = 0.8667
+
+
+Struttura: 102744
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 739774.4, calorie richieste: 3735000 
+  Carboidrati totali (kcal): 332898.48000000004 <= 450023.04 <= 443864.64
+  Proteine totali (kcal):   110966.16 <= 134898.56 <= 147954.88
+  Grassi totali (kcal):     147954.88 <= 94442.40000000001 <= 221932.32
+  Zuccheri totali:          28275.2 <= 28126.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 83 
+Peso totale: 661.5999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102744]   = 615.8400
+  eps_gr[102744]    = 5351.2480
+  eps_prot[102744]  = 0.0000
+  eps_zuc[102744]   = 14.8760
+  epsilon_rich[102744] = 0.8019
+
+
+Struttura: 102353
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 757918.4, calorie richieste: 2925000 
+  Carboidrati totali (kcal): 341063.28 <= 457683.83999999997 <= 454751.04
+  Proteine totali (kcal):   113687.76 <= 139141.75999999998 <= 151583.68000000002
+  Grassi totali (kcal):     151583.68000000002 <= 103816.8 <= 227375.52
+  Zuccheri totali:          29950.4 <= 28605.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 65 
+Peso totale: 623.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102353]   = 293.2800
+  eps_gr[102353]    = 4776.6880
+  eps_prot[102353]  = 0.0000
+  eps_zuc[102353]   = 134.5160
+  epsilon_rich[102353] = 0.7409
+
+
+Struttura: 102363
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 739774.4, calorie richieste: 1350000 
+  Carboidrati totali (kcal): 332898.48000000004 <= 450023.04 <= 443864.64
+  Proteine totali (kcal):   110966.16 <= 134898.56 <= 147954.88
+  Grassi totali (kcal):     147954.88 <= 94442.40000000001 <= 221932.32
+  Zuccheri totali:          28275.2 <= 28126.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 30 
+Peso totale: 661.5999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102363]   = 615.8400
+  eps_gr[102363]    = 5351.2480
+  eps_prot[102363]  = 0.0000
+  eps_zuc[102363]   = 14.8760
+  epsilon_rich[102363] = 0.4520
+
+
+Struttura: 102680
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 4860000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 108 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102680]   = 638.8800
+  eps_gr[102680]    = 5899.8880
+  eps_prot[102680]  = 0.0000
+  eps_zuc[102680]   = 976.9160
+  epsilon_rich[102680] = 0.8298
+
+
+Struttura: 102372
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 5265000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 117 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102372]   = 638.8800
+  eps_gr[102372]    = 5899.8880
+  eps_prot[102372]  = 0.0000
+  eps_zuc[102372]   = 976.9160
+  epsilon_rich[102372] = 0.8429
+
+
+Struttura: 102574
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 600814.4, calorie richieste: 2520000 
+  Carboidrati totali (kcal): 270366.48000000004 <= 373818.24 <= 360488.64
+  Proteine totali (kcal):   90122.16 <= 105868.16000000002 <= 120162.88
+  Grassi totali (kcal):     120162.88 <= 80964.00000000001 <= 180244.32
+  Zuccheri totali:          27310.4 <= 23363.64
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 56 
+Peso totale: 503.2
+
+  --- Epsilon (slack) ---
+  eps_car[102574]   = 1332.9600
+  eps_gr[102574]    = 3919.8880
+  eps_prot[102574]  = 0.0000
+  eps_zuc[102574]   = 394.6760
+  epsilon_rich[102574] = 0.7616
+
+
+Struttura: 102642
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 405507.2, calorie richieste: 4410000 
+  Carboidrati totali (kcal): 182478.24000000002 <= 261100.8 <= 243304.32
+  Proteine totali (kcal):   60826.08 <= 66060.8 <= 81101.44
+  Grassi totali (kcal):     81101.44 <= 47514.240000000005 <= 121652.16
+  Zuccheri totali:          34280.0 <= 16318.8
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 98 
+Peso totale: 579.52
+
+  --- Epsilon (slack) ---
+  eps_car[102642]   = 1779.6480
+  eps_gr[102642]    = 3358.7200
+  eps_prot[102642]  = 0.0000
+  eps_zuc[102642]   = 1796.1200
+  epsilon_rich[102642] = 0.9080
+
+
+Struttura: 109428
+  Peso soddisfazione richiesta: 100 
+  Calorie totali: 1997155.2000000002, calorie richieste: 34560000 
+  Carboidrati totali (kcal): 898719.8400000001 <= 1442304.0 <= 1198293.12
+  Proteine totali (kcal):   299573.28 <= 242016.0 <= 399431.04000000004
+  Grassi totali (kcal):     399431.04000000004 <= 223093.44 <= 599146.56
+  Zuccheri totali:          221904.0 <= 90144.0
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 768 
+Peso totale: 1686.72
+
+  --- Epsilon (slack) ---
+  eps_car[109428]   = 24401.0880
+  eps_gr[109428]    = 17633.7600
+  eps_prot[109428]  = 5755.7280
+  eps_zuc[109428]   = 13176.0000
+  epsilon_rich[109428] = 0.9422
+
+
+Struttura: 109441
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 739774.4, calorie richieste: 3915000 
+  Carboidrati totali (kcal): 332898.48000000004 <= 450023.04 <= 443864.64
+  Proteine totali (kcal):   110966.16 <= 134898.56 <= 147954.88
+  Grassi totali (kcal):     147954.88 <= 94442.40000000001 <= 221932.32
+  Zuccheri totali:          28275.2 <= 28126.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 87 
+Peso totale: 661.5999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[109441]   = 615.8400
+  eps_gr[109441]    = 5351.2480
+  eps_prot[109441]  = 0.0000
+  eps_zuc[109441]   = 14.8760
+  epsilon_rich[109441] = 0.8110
+
+
+Struttura: 102204
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1243590.4, calorie richieste: 9855000 
+  Carboidrati totali (kcal): 559615.6799999999 <= 786585.6 <= 746154.2399999999
+  Proteine totali (kcal):   186538.55999999997 <= 206732.80000000002 <= 248718.08
+  Grassi totali (kcal):     248718.08 <= 177540.48 <= 373077.11999999994
+  Zuccheri totali:          113209.6 <= 49161.6
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 219 
+Peso totale: 1427.84
+
+  --- Epsilon (slack) ---
+  eps_car[102204]   = 4043.1360
+  eps_gr[102204]    = 7117.7600
+  eps_prot[102204]  = 0.0000
+  eps_zuc[102204]   = 6404.8000
+  epsilon_rich[102204] = 0.8738
+
+
+Struttura: 118398
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1716136.8, calorie richieste: 20565000 
+  Carboidrati totali (kcal): 772261.56 <= 1147264.32 <= 1029682.08
+  Proteine totali (kcal):   257420.52 <= 260124.48 <= 343227.36000000004
+  Grassi totali (kcal):     343227.36000000004 <= 227614.32 <= 514841.04
+  Zuccheri totali:          120535.2 <= 71704.02
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 457 
+Peso totale: 1552.56
+
+  --- Epsilon (slack) ---
+  eps_car[118398]   = 11758.2240
+  eps_gr[118398]    = 11561.3040
+  eps_prot[118398]  = 0.0000
+  eps_zuc[118398]   = 4883.1180
+  epsilon_rich[118398] = 0.9166
+
+
+Struttura: 102563
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 8010000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 178 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102563]   = 638.8800
+  eps_gr[102563]    = 5899.8880
+  eps_prot[102563]  = 0.0000
+  eps_zuc[102563]   = 976.9160
+  epsilon_rich[102563] = 0.8967
+
+
+Struttura: 102708
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 449470.4, calorie richieste: 450000 
+  Carboidrati totali (kcal): 202261.68000000002 <= 305331.84 <= 269682.24
+  Proteine totali (kcal):   67420.56 <= 68543.36000000002 <= 89894.08000000002
+  Grassi totali (kcal):     89894.08000000002 <= 48823.200000000004 <= 134841.12
+  Zuccheri totali:          28275.2 <= 19083.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 10 
+Peso totale: 431.2
+
+  --- Epsilon (slack) ---
+  eps_car[102708]   = 3564.9600
+  eps_gr[102708]    = 4107.0880
+  eps_prot[102708]  = 0.0000
+  eps_zuc[102708]   = 919.1960
+  epsilon_rich[102708] = 0.0012
+
+
+Struttura: 102495
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 771742.4, calorie richieste: 1845000 
+  Carboidrati totali (kcal): 347284.08 <= 466669.43999999994 <= 463045.44
+  Proteine totali (kcal):   115761.36 <= 141676.16 <= 154348.48
+  Grassi totali (kcal):     154348.48 <= 104335.20000000001 <= 231522.72
+  Zuccheri totali:          32196.8 <= 29166.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 41 
+Peso totale: 680.8
+
+  --- Epsilon (slack) ---
+  eps_car[102495]   = 362.4000
+  eps_gr[102495]    = 5001.3280
+  eps_prot[102495]  = 0.0000
+  eps_zuc[102495]   = 302.9960
+  epsilon_rich[102495] = 0.5817
+
+
+Struttura: 102609
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 9180000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 204 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102609]   = 382.3680
+  eps_gr[102609]    = 5488.6880
+  eps_prot[102609]  = 0.0000
+  eps_zuc[102609]   = 3537.3160
+  epsilon_rich[102609] = 0.8722
+
+
+Struttura: 102503
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 1034110.4, calorie richieste: 4770000 
+  Carboidrati totali (kcal): 465349.68 <= 628179.84 <= 620466.24
+  Proteine totali (kcal):   155116.56 <= 189253.75999999998 <= 206822.08000000002
+  Grassi totali (kcal):     206822.08000000002 <= 148140.0 <= 310233.12
+  Zuccheri totali:          71134.4 <= 39261.24
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 106 
+Peso totale: 1228.0
+
+  --- Epsilon (slack) ---
+  eps_car[102503]   = 771.3600
+  eps_gr[102503]    = 5868.2080
+  eps_prot[102503]  = 0.0000
+  eps_zuc[102503]   = 3187.3160
+  epsilon_rich[102503] = 0.7832
+
+
+Struttura: 102715
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 6480000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 144 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102715]   = 638.8800
+  eps_gr[102715]    = 5899.8880
+  eps_prot[102715]  = 0.0000
+  eps_zuc[102715]   = 976.9160
+  epsilon_rich[102715] = 0.8724
+
+
+Struttura: 120496
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 10980000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 244 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[120496]   = 382.3680
+  eps_gr[120496]    = 5488.6880
+  eps_prot[120496]  = 0.0000
+  eps_zuc[120496]   = 3537.3160
+  epsilon_rich[120496] = 0.8931
+
+
+Struttura: 116809
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 10035000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 223 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[116809]   = 382.3680
+  eps_gr[116809]    = 5488.6880
+  eps_prot[116809]  = 0.0000
+  eps_zuc[116809]   = 3537.3160
+  epsilon_rich[116809] = 0.8830
+
+
+Struttura: 102201
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1757528.0, calorie richieste: 18090000 
+  Carboidrati totali (kcal): 790887.6 <= 1198285.44 <= 1054516.8
+  Proteine totali (kcal):   263629.2 <= 266207.36 <= 351505.60000000003
+  Grassi totali (kcal):     351505.60000000003 <= 211885.92 <= 527258.4
+  Zuccheri totali:          119259.2 <= 74892.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 402 
+Peso totale: 1569.76
+
+  --- Epsilon (slack) ---
+  eps_car[102201]   = 14376.8640
+  eps_gr[102201]    = 13961.9680
+  eps_prot[102201]  = 0.0000
+  eps_zuc[102201]   = 4436.6360
+  epsilon_rich[102201] = 0.9028
+
+
+Struttura: 102325
+  Peso soddisfazione richiesta: 100 
+  Calorie totali: 2367374.4, calorie richieste: 23805000 
+  Carboidrati totali (kcal): 1065318.48 <= 1750784.64 <= 1420424.64
+  Proteine totali (kcal):   355106.16 <= 285720.96 <= 473474.88
+  Grassi totali (kcal):     473474.88 <= 235504.80000000002 <= 710212.32
+  Zuccheri totali:          225086.4 <= 109424.04000000001
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 529 
+Peso totale: 1792.8
+
+  --- Epsilon (slack) ---
+  eps_car[102325]   = 33036.0000
+  eps_gr[102325]    = 23797.0080
+  eps_prot[102325]  = 6938.5200
+  eps_zuc[102325]   = 11566.2360
+  epsilon_rich[102325] = 0.9006
+
+
+Struttura: 102188
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 5850000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 130 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102188]   = 638.8800
+  eps_gr[102188]    = 5899.8880
+  eps_prot[102188]  = 0.0000
+  eps_zuc[102188]   = 976.9160
+  epsilon_rich[102188] = 0.8586
+
+
+Struttura: 102284
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 12600000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 280 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102284]   = 382.3680
+  eps_gr[102284]    = 5488.6880
+  eps_prot[102284]  = 0.0000
+  eps_zuc[102284]   = 3537.3160
+  epsilon_rich[102284] = 0.9069
+
+
+Struttura: 109636
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 495363.2, calorie richieste: 4095000 
+  Carboidrati totali (kcal): 222913.44 <= 297504.0 <= 297217.92
+  Proteine totali (kcal):   74304.48 <= 89100.80000000002 <= 99072.64000000001
+  Grassi totali (kcal):     99072.64000000001 <= 68250.24 <= 148608.96
+  Zuccheri totali:          25294.399999999998 <= 18594.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 91 
+Peso totale: 464.31999999999994
+
+  --- Epsilon (slack) ---
+  eps_car[109636]   = 28.6080
+  eps_gr[109636]    = 3082.2400
+  eps_prot[109636]  = 0.0000
+  eps_zuc[109636]   = 670.0400
+  epsilon_rich[109636] = 0.8790
+
+
+Struttura: 122659
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 771742.4, calorie richieste: 2340000 
+  Carboidrati totali (kcal): 347284.08 <= 466669.43999999994 <= 463045.44
+  Proteine totali (kcal):   115761.36 <= 141676.16 <= 154348.48
+  Grassi totali (kcal):     154348.48 <= 104335.20000000001 <= 231522.72
+  Zuccheri totali:          32196.8 <= 29166.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 52 
+Peso totale: 680.8
+
+  --- Epsilon (slack) ---
+  eps_car[122659]   = 362.4000
+  eps_gr[122659]    = 5001.3280
+  eps_prot[122659]  = 0.0000
+  eps_zuc[122659]   = 302.9960
+  epsilon_rich[122659] = 0.6702
+
+
+Struttura: 118688
+  Peso soddisfazione richiesta: 100 
+  Calorie totali: 2367374.4, calorie richieste: 30690000 
+  Carboidrati totali (kcal): 1065318.48 <= 1750784.64 <= 1420424.64
+  Proteine totali (kcal):   355106.16 <= 285720.96 <= 473474.88
+  Grassi totali (kcal):     473474.88 <= 235504.80000000002 <= 710212.32
+  Zuccheri totali:          225086.4 <= 109424.04000000001
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 682 
+Peso totale: 1792.8
+
+  --- Epsilon (slack) ---
+  eps_car[118688]   = 33036.0000
+  eps_gr[118688]    = 23797.0080
+  eps_prot[118688]  = 6938.5200
+  eps_zuc[118688]   = 11566.2360
+  epsilon_rich[118688] = 0.9229
+
+
+Struttura: 123468
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 739774.4, calorie richieste: 4500000 
+  Carboidrati totali (kcal): 332898.48000000004 <= 450023.04 <= 443864.64
+  Proteine totali (kcal):   110966.16 <= 134898.56 <= 147954.88
+  Grassi totali (kcal):     147954.88 <= 94442.40000000001 <= 221932.32
+  Zuccheri totali:          28275.2 <= 28126.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 100 
+Peso totale: 661.5999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[123468]   = 615.8400
+  eps_gr[123468]    = 5351.2480
+  eps_prot[123468]  = 0.0000
+  eps_zuc[123468]   = 14.8760
+  epsilon_rich[123468] = 0.8356
+
+
+Struttura: 120293
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1187888.8, calorie richieste: 9090000 
+  Carboidrati totali (kcal): 534549.9600000001 <= 719878.08 <= 712733.28
+  Proteine totali (kcal):   178183.32 <= 217251.52000000002 <= 237577.76
+  Grassi totali (kcal):     237577.76 <= 180320.40000000002 <= 356366.64
+  Zuccheri totali:          79746.4 <= 44992.38
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 202 
+Peso totale: 1394.0
+
+  --- Epsilon (slack) ---
+  eps_car[120293]   = 714.4800
+  eps_gr[120293]    = 5725.7360
+  eps_prot[120293]  = 0.0000
+  eps_zuc[120293]   = 3475.4020
+  epsilon_rich[120293] = 0.8693
+
+
+Struttura: 122826
+  Peso soddisfazione richiesta: 100 
+  Calorie totali: 2367374.4, calorie richieste: 32580000 
+  Carboidrati totali (kcal): 1065318.48 <= 1750784.64 <= 1420424.64
+  Proteine totali (kcal):   355106.16 <= 285720.96 <= 473474.88
+  Grassi totali (kcal):     473474.88 <= 235504.80000000002 <= 710212.32
+  Zuccheri totali:          225086.4 <= 109424.04000000001
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 724 
+Peso totale: 1792.8
+
+  --- Epsilon (slack) ---
+  eps_car[122826]   = 33036.0000
+  eps_gr[122826]    = 23797.0080
+  eps_prot[122826]  = 6938.5200
+  eps_zuc[122826]   = 11566.2360
+  epsilon_rich[122826] = 0.9273
+
+
+Struttura: 117273
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 729798.4, calorie richieste: 8325000 
+  Carboidrati totali (kcal): 328409.28 <= 402393.6 <= 437879.04
+  Proteine totali (kcal):   109469.76 <= 148940.8 <= 145959.68000000002
+  Grassi totali (kcal):     145959.68000000002 <= 114209.28000000001 <= 218939.52
+  Zuccheri totali:          23401.6 <= 25149.6
+  Proteine (eccesso), Grassi (difetto)
+
+Numero assistiti: 185 
+Peso totale: 871.04
+
+  --- Epsilon (slack) ---
+  eps_car[117273]   = 0.0000
+  eps_gr[117273]    = 3175.0400
+  eps_prot[117273]  = 298.1120
+  eps_zuc[117273]   = 0.0000
+  epsilon_rich[117273] = 0.9123
+
+
+Struttura: 102550
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 7020000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 156 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102550]   = 638.8800
+  eps_gr[102550]    = 5899.8880
+  eps_prot[102550]  = 0.0000
+  eps_zuc[102550]   = 976.9160
+  epsilon_rich[102550] = 0.8822
+
+
+Struttura: 102329
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 220969.6, calorie richieste: 225000 
+  Carboidrati totali (kcal): 99436.32 <= 149702.4 <= 132581.76
+  Proteine totali (kcal):   33145.44 <= 31590.400000000005 <= 44193.920000000006
+  Grassi totali (kcal):     44193.920000000006 <= 27774.720000000005 <= 66290.88
+  Zuccheri totali:          21208.0 <= 9356.4
+  Carboidrati (eccesso), Proteine (difetto), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 5 
+Peso totale: 196.16
+
+  --- Epsilon (slack) ---
+  eps_car[102329]   = 1712.0640
+  eps_gr[102329]    = 1641.9200
+  eps_prot[102329]  = 155.5040
+  eps_zuc[102329]   = 1185.1600
+  epsilon_rich[102329] = 0.0179
+  eps_ass[102329, 0008315717] = 1.0000
+
+
+Struttura: 102407
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 12645000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 281 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102407]   = 382.3680
+  eps_gr[102407]    = 5488.6880
+  eps_prot[102407]  = 0.0000
+  eps_zuc[102407]   = 3537.3160
+  epsilon_rich[102407] = 0.9072
+
+
+Struttura: 114762
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 495363.2, calorie richieste: 2430000 
+  Carboidrati totali (kcal): 222913.44 <= 297504.0 <= 297217.92
+  Proteine totali (kcal):   74304.48 <= 89100.80000000002 <= 99072.64000000001
+  Grassi totali (kcal):     99072.64000000001 <= 68250.24 <= 148608.96
+  Zuccheri totali:          25294.399999999998 <= 18594.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 54 
+Peso totale: 464.31999999999994
+
+  --- Epsilon (slack) ---
+  eps_car[114762]   = 28.6080
+  eps_gr[114762]    = 3082.2400
+  eps_prot[114762]  = 0.0000
+  eps_zuc[114762]   = 670.0400
+  epsilon_rich[114762] = 0.7961
+
+
+Struttura: 102247
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 12285000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 273 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102247]   = 382.3680
+  eps_gr[102247]    = 5488.6880
+  eps_prot[102247]  = 0.0000
+  eps_zuc[102247]   = 3537.3160
+  epsilon_rich[102247] = 0.9045
+
+
+Struttura: 102705
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 495363.2, calorie richieste: 4320000 
+  Carboidrati totali (kcal): 222913.44 <= 297504.0 <= 297217.92
+  Proteine totali (kcal):   74304.48 <= 89100.80000000002 <= 99072.64000000001
+  Grassi totali (kcal):     99072.64000000001 <= 68250.24 <= 148608.96
+  Zuccheri totali:          25294.399999999998 <= 18594.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 96 
+Peso totale: 464.31999999999994
+
+  --- Epsilon (slack) ---
+  eps_car[102705]   = 28.6080
+  eps_gr[102705]    = 3082.2400
+  eps_prot[102705]  = 0.0000
+  eps_zuc[102705]   = 670.0400
+  epsilon_rich[102705] = 0.8853
+
+
+Struttura: 102741
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 9450000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 210 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102741]   = 382.3680
+  eps_gr[102741]    = 5488.6880
+  eps_prot[102741]  = 0.0000
+  eps_zuc[102741]   = 3537.3160
+  epsilon_rich[102741] = 0.8758
+
+
+Struttura: 102306
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 550659.2, calorie richieste: 675000 
+  Carboidrati totali (kcal): 247796.63999999998 <= 333446.39999999997 <= 330395.51999999996
+  Proteine totali (kcal):   82598.87999999999 <= 99238.40000000001 <= 110131.84
+  Grassi totali (kcal):     110131.84 <= 70323.84000000001 <= 165197.75999999998
+  Zuccheri totali:          34280.0 <= 20840.399999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 15 
+Peso totale: 694.7199999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102306]   = 305.0880
+  eps_gr[102306]    = 3980.8000
+  eps_prot[102306]  = 0.0000
+  eps_zuc[102306]   = 1343.9600
+  epsilon_rich[102306] = 0.1842
+
+
+Struttura: 102239
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 751006.4, calorie richieste: 2250000 
+  Carboidrati totali (kcal): 337952.88 <= 453191.04 <= 450603.84
+  Proteine totali (kcal):   112650.96 <= 137874.56 <= 150201.28
+  Grassi totali (kcal):     150201.28 <= 103557.6 <= 225301.92
+  Zuccheri totali:          28827.2 <= 28324.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 50 
+Peso totale: 594.4
+
+  --- Epsilon (slack) ---
+  eps_car[102239]   = 258.7200
+  eps_gr[102239]    = 4664.3680
+  eps_prot[102239]  = 0.0000
+  eps_zuc[102239]   = 50.2760
+  epsilon_rich[102239] = 0.6662
+
+
+Struttura: 102630
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 495363.2, calorie richieste: 3870000 
+  Carboidrati totali (kcal): 222913.44 <= 297504.0 <= 297217.92
+  Proteine totali (kcal):   74304.48 <= 89100.80000000002 <= 99072.64000000001
+  Grassi totali (kcal):     99072.64000000001 <= 68250.24 <= 148608.96
+  Zuccheri totali:          25294.399999999998 <= 18594.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 86 
+Peso totale: 464.31999999999994
+
+  --- Epsilon (slack) ---
+  eps_car[102630]   = 28.6080
+  eps_gr[102630]    = 3082.2400
+  eps_prot[102630]  = 0.0000
+  eps_zuc[102630]   = 670.0400
+  epsilon_rich[102630] = 0.8720
+
+
+Struttura: 102618
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 1034110.4, calorie richieste: 4680000 
+  Carboidrati totali (kcal): 465349.68 <= 628179.84 <= 620466.24
+  Proteine totali (kcal):   155116.56 <= 189253.75999999998 <= 206822.08000000002
+  Grassi totali (kcal):     206822.08000000002 <= 148140.0 <= 310233.12
+  Zuccheri totali:          71134.4 <= 39261.24
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 104 
+Peso totale: 1228.0
+
+  --- Epsilon (slack) ---
+  eps_car[102618]   = 771.3600
+  eps_gr[102618]    = 5868.2080
+  eps_prot[102618]  = 0.0000
+  eps_zuc[102618]   = 3187.3160
+  epsilon_rich[102618] = 0.7790
+
+
+Struttura: 120294
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 642286.4, calorie richieste: 4050000 
+  Carboidrati totali (kcal): 289028.88 <= 400775.04 <= 385371.84
+  Proteine totali (kcal):   96342.96 <= 113471.36000000002 <= 128457.28000000001
+  Grassi totali (kcal):     128457.28000000001 <= 82519.20000000001 <= 192685.92
+  Zuccheri totali:          34049.6 <= 25048.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 90 
+Peso totale: 676.0
+
+  --- Epsilon (slack) ---
+  eps_car[120294]   = 1540.3200
+  eps_gr[120294]    = 4593.8080
+  eps_prot[120294]  = 0.0000
+  eps_zuc[120294]   = 900.1160
+  epsilon_rich[120294] = 0.8414
+
+
+Struttura: 120305
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 757918.4006371062, calorie richieste: 2205000 
+  Carboidrati totali (kcal): 341063.2802866978 <= 457683.84041411895 <= 454751.04038226366
+  Proteine totali (kcal):   113687.76009556591 <= 139141.7601168028 <= 151583.68012742125
+  Grassi totali (kcal):     151583.68012742125 <= 103816.80002389148 <= 227375.52019113183
+  Zuccheri totali:          29950.40010352975 <= 28605.24002588244
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 49 
+Peso totale: 623.200002654609
+
+  --- Epsilon (slack) ---
+  eps_car[120305]   = 293.2800
+  eps_gr[120305]    = 4776.6880
+  eps_prot[120305]  = 0.0000
+  eps_zuc[120305]   = 134.5160
+  epsilon_rich[120305] = 0.6563
+
+
+Struttura: 111651
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1757528.0, calorie richieste: 17955000 
+  Carboidrati totali (kcal): 790887.6 <= 1198285.44 <= 1054516.8
+  Proteine totali (kcal):   263629.2 <= 266207.36 <= 351505.60000000003
+  Grassi totali (kcal):     351505.60000000003 <= 211885.92 <= 527258.4
+  Zuccheri totali:          119259.2 <= 74892.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 399 
+Peso totale: 1569.76
+
+  --- Epsilon (slack) ---
+  eps_car[111651]   = 14376.8640
+  eps_gr[111651]    = 13961.9680
+  eps_prot[111651]  = 0.0000
+  eps_zuc[111651]   = 4436.6360
+  epsilon_rich[111651] = 0.9021
+
+
+Struttura: 120296
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 600814.4, calorie richieste: 4050000 
+  Carboidrati totali (kcal): 270366.48000000004 <= 373818.24 <= 360488.64
+  Proteine totali (kcal):   90122.16 <= 105868.16000000002 <= 120162.88
+  Grassi totali (kcal):     120162.88 <= 80964.00000000001 <= 180244.32
+  Zuccheri totali:          27310.4 <= 23363.64
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 90 
+Peso totale: 503.2
+
+  --- Epsilon (slack) ---
+  eps_car[120296]   = 1332.9600
+  eps_gr[120296]    = 3919.8880
+  eps_prot[120296]  = 0.0000
+  eps_zuc[120296]   = 394.6760
+  epsilon_rich[120296] = 0.8517
+
+
+Struttura: 102679
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1630701.6, calorie richieste: 20610000 
+  Carboidrati totali (kcal): 733815.7200000001 <= 1076076.48 <= 978420.96
+  Proteine totali (kcal):   244605.24 <= 250038.72 <= 326140.32000000007
+  Grassi totali (kcal):     326140.32000000007 <= 224750.16 <= 489210.48
+  Zuccheri totali:          119800.8 <= 67254.78
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 458 
+Peso totale: 1528.08
+
+  --- Epsilon (slack) ---
+  eps_car[102679]   = 9765.5520
+  eps_gr[102679]    = 10139.0160
+  eps_prot[102679]  = 0.0000
+  eps_zuc[102679]   = 5254.6020
+  epsilon_rich[102679] = 0.9209
+
+
+Struttura: 114910
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 751006.4, calorie richieste: 2070000 
+  Carboidrati totali (kcal): 337952.88 <= 453191.04 <= 450603.84
+  Proteine totali (kcal):   112650.96 <= 137874.56 <= 150201.28
+  Grassi totali (kcal):     150201.28 <= 103557.6 <= 225301.92
+  Zuccheri totali:          28827.2 <= 28324.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 46 
+Peso totale: 594.4
+
+  --- Epsilon (slack) ---
+  eps_car[114910]   = 258.7200
+  eps_gr[114910]    = 4664.3680
+  eps_prot[114910]  = 0.0000
+  eps_zuc[114910]   = 50.2760
+  epsilon_rich[114910] = 0.6372
+
+
+Struttura: 102404
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 12735000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 283 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102404]   = 382.3680
+  eps_gr[102404]    = 5488.6880
+  eps_prot[102404]  = 0.0000
+  eps_zuc[102404]   = 3537.3160
+  epsilon_rich[102404] = 0.9078
+
+
+Struttura: 102403
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 739774.4, calorie richieste: 3780000 
+  Carboidrati totali (kcal): 332898.48000000004 <= 450023.04 <= 443864.64
+  Proteine totali (kcal):   110966.16 <= 134898.56 <= 147954.88
+  Grassi totali (kcal):     147954.88 <= 94442.40000000001 <= 221932.32
+  Zuccheri totali:          28275.2 <= 28126.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 84 
+Peso totale: 661.5999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102403]   = 615.8400
+  eps_gr[102403]    = 5351.2480
+  eps_prot[102403]  = 0.0000
+  eps_zuc[102403]   = 14.8760
+  epsilon_rich[102403] = 0.8043
+
+
+Struttura: 102469
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 6660000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 148 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102469]   = 638.8800
+  eps_gr[102469]    = 5899.8880
+  eps_prot[102469]  = 0.0000
+  eps_zuc[102469]   = 976.9160
+  epsilon_rich[102469] = 0.8758
+
+
+Struttura: 102427
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 6750000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 150 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102427]   = 638.8800
+  eps_gr[102427]    = 5899.8880
+  eps_prot[102427]  = 0.0000
+  eps_zuc[102427]   = 976.9160
+  epsilon_rich[102427] = 0.8775
+
+
+Struttura: 114709
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1630701.6, calorie richieste: 20790000 
+  Carboidrati totali (kcal): 733815.7200000001 <= 1076076.48 <= 978420.96
+  Proteine totali (kcal):   244605.24 <= 250038.72 <= 326140.32000000007
+  Grassi totali (kcal):     326140.32000000007 <= 224750.16 <= 489210.48
+  Zuccheri totali:          119800.8 <= 67254.78
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 462 
+Peso totale: 1528.08
+
+  --- Epsilon (slack) ---
+  eps_car[114709]   = 9765.5520
+  eps_gr[114709]    = 10139.0160
+  eps_prot[114709]  = 0.0000
+  eps_zuc[114709]   = 5254.6020
+  epsilon_rich[114709] = 0.9216
+
+
+Struttura: 114828
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 495363.2, calorie richieste: 1395000 
+  Carboidrati totali (kcal): 222913.44 <= 297504.0 <= 297217.92
+  Proteine totali (kcal):   74304.48 <= 89100.80000000002 <= 99072.64000000001
+  Grassi totali (kcal):     99072.64000000001 <= 68250.24 <= 148608.96
+  Zuccheri totali:          25294.399999999998 <= 18594.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 31 
+Peso totale: 464.31999999999994
+
+  --- Epsilon (slack) ---
+  eps_car[114828]   = 28.6080
+  eps_gr[114828]    = 3082.2400
+  eps_prot[114828]  = 0.0000
+  eps_zuc[114828]   = 670.0400
+  epsilon_rich[114828] = 0.6449
+
+
+Struttura: 120410
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 880995.2, calorie richieste: 7335000 
+  Carboidrati totali (kcal): 396447.83999999997 <= 528768.0 <= 528597.12
+  Proteine totali (kcal):   132149.28 <= 160736.0 <= 176199.04
+  Grassi totali (kcal):     176199.04 <= 124539.84000000001 <= 264298.56
+  Zuccheri totali:          63344.0 <= 33048.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 163 
+Peso totale: 1059.52
+
+  --- Epsilon (slack) ---
+  eps_car[120410]   = 17.0880
+  eps_gr[120410]    = 5165.9200
+  eps_prot[120410]  = 0.0000
+  eps_zuc[120410]   = 3029.6000
+  epsilon_rich[120410] = 0.8799
+
+
+Struttura: 102397
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 11610000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 258 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102397]   = 382.3680
+  eps_gr[102397]    = 5488.6880
+  eps_prot[102397]  = 0.0000
+  eps_zuc[102397]   = 3537.3160
+  epsilon_rich[102397] = 0.8989
+
+
+Struttura: 120308
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 13455000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 299 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[120308]   = 382.3680
+  eps_gr[120308]    = 5488.6880
+  eps_prot[120308]  = 0.0000
+  eps_zuc[120308]   = 3537.3160
+  epsilon_rich[120308] = 0.9128
+
+
+Struttura: 102207
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1757528.0, calorie richieste: 15975000 
+  Carboidrati totali (kcal): 790887.6 <= 1198285.44 <= 1054516.8
+  Proteine totali (kcal):   263629.2 <= 266207.36 <= 351505.60000000003
+  Grassi totali (kcal):     351505.60000000003 <= 211885.92 <= 527258.4
+  Zuccheri totali:          119259.2 <= 74892.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 355 
+Peso totale: 1569.76
+
+  --- Epsilon (slack) ---
+  eps_car[102207]   = 14376.8640
+  eps_gr[102207]    = 13961.9680
+  eps_prot[102207]  = 0.0000
+  eps_zuc[102207]   = 4436.6360
+  epsilon_rich[102207] = 0.8900
+
+
+Struttura: 119066
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 495363.2, calorie richieste: 2385000 
+  Carboidrati totali (kcal): 222913.44 <= 297504.0 <= 297217.92
+  Proteine totali (kcal):   74304.48 <= 89100.80000000002 <= 99072.64000000001
+  Grassi totali (kcal):     99072.64000000001 <= 68250.24 <= 148608.96
+  Zuccheri totali:          25294.399999999998 <= 18594.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 53 
+Peso totale: 464.31999999999994
+
+  --- Epsilon (slack) ---
+  eps_car[119066]   = 28.6080
+  eps_gr[119066]    = 3082.2400
+  eps_prot[119066]  = 0.0000
+  eps_zuc[119066]   = 670.0400
+  epsilon_rich[119066] = 0.7923
+
+
+Struttura: 102616
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 739774.4, calorie richieste: 3285000 
+  Carboidrati totali (kcal): 332898.48000000004 <= 450023.04 <= 443864.64
+  Proteine totali (kcal):   110966.16 <= 134898.56 <= 147954.88
+  Grassi totali (kcal):     147954.88 <= 94442.40000000001 <= 221932.32
+  Zuccheri totali:          28275.2 <= 28126.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 73 
+Peso totale: 661.5999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102616]   = 615.8400
+  eps_gr[102616]    = 5351.2480
+  eps_prot[102616]  = 0.0000
+  eps_zuc[102616]   = 14.8760
+  epsilon_rich[102616] = 0.7748
+
+
+Struttura: 109412
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 703844.8301129882, calorie richieste: 1305000 
+  Carboidrati totali (kcal): 316730.1735508447 <= 424218.2616272833 <= 422306.89806779294
+  Proteine totali (kcal):   105576.72451694823 <= 130956.16330416828 <= 140768.96602259765
+  Grassi totali (kcal):     140768.96602259765 <= 88958.8845957977 <= 211153.44903389647
+  Zuccheri totali:          27558.40060075787 <= 26513.641351705206
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 29 
+Peso totale: 652.6400075094733
+
+  --- Epsilon (slack) ---
+  eps_car[109412]   = 191.1360
+  eps_gr[109412]    = 5181.0080
+  eps_prot[109412]  = 0.0000
+  eps_zuc[109412]   = 104.4760
+  epsilon_rich[109412] = 0.4607
+  eps_ass[109412, 0008315717] = 1.0000
+
+
+Struttura: 115091
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 495363.2, calorie richieste: 900000 
+  Carboidrati totali (kcal): 222913.44 <= 297504.0 <= 297217.92
+  Proteine totali (kcal):   74304.48 <= 89100.80000000002 <= 99072.64000000001
+  Grassi totali (kcal):     99072.64000000001 <= 68250.24 <= 148608.96
+  Zuccheri totali:          25294.399999999998 <= 18594.0
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 20 
+Peso totale: 464.31999999999994
+
+  --- Epsilon (slack) ---
+  eps_car[115091]   = 28.6080
+  eps_gr[115091]    = 3082.2400
+  eps_prot[115091]  = 0.0000
+  eps_zuc[115091]   = 670.0400
+  epsilon_rich[115091] = 0.4496
+
+
+Struttura: 117217
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 10665000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 237 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[117217]   = 382.3680
+  eps_gr[117217]    = 5488.6880
+  eps_prot[117217]  = 0.0000
+  eps_zuc[117217]   = 3537.3160
+  epsilon_rich[117217] = 0.8900
+
+
+Struttura: 102472
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 605854.4, calorie richieste: 1305000 
+  Carboidrati totali (kcal): 272634.48000000004 <= 380845.44 <= 363512.64
+  Proteine totali (kcal):   90878.16 <= 104696.96000000002 <= 121170.88
+  Grassi totali (kcal):     121170.88 <= 80748.00000000001 <= 181756.32
+  Zuccheri totali:          28827.2 <= 23802.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 29 
+Peso totale: 479.2
+
+  --- Epsilon (slack) ---
+  eps_car[102472]   = 1733.2800
+  eps_gr[102472]    = 4042.2880
+  eps_prot[102472]  = 0.0000
+  eps_zuc[102472]   = 502.4360
+  epsilon_rich[102472] = 0.5357
+
+
+Struttura: 102311
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1716136.8, calorie richieste: 18810000 
+  Carboidrati totali (kcal): 772261.56 <= 1147264.32 <= 1029682.08
+  Proteine totali (kcal):   257420.52 <= 260124.48 <= 343227.36000000004
+  Grassi totali (kcal):     343227.36000000004 <= 227614.32 <= 514841.04
+  Zuccheri totali:          120535.2 <= 71704.02
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 418 
+Peso totale: 1552.56
+
+  --- Epsilon (slack) ---
+  eps_car[102311]   = 11758.2240
+  eps_gr[102311]    = 11561.3040
+  eps_prot[102311]  = 0.0000
+  eps_zuc[102311]   = 4883.1180
+  epsilon_rich[102311] = 0.9088
+
+
+Struttura: 102243
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 600814.4, calorie richieste: 4365000 
+  Carboidrati totali (kcal): 270366.48000000004 <= 373818.24 <= 360488.64
+  Proteine totali (kcal):   90122.16 <= 105868.16000000002 <= 120162.88
+  Grassi totali (kcal):     120162.88 <= 80964.00000000001 <= 180244.32
+  Zuccheri totali:          27310.4 <= 23363.64
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 97 
+Peso totale: 503.2
+
+  --- Epsilon (slack) ---
+  eps_car[102243]   = 1332.9600
+  eps_gr[102243]    = 3919.8880
+  eps_prot[102243]  = 0.0000
+  eps_zuc[102243]   = 394.6760
+  epsilon_rich[102243] = 0.8624
+
+
+Struttura: 102557
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 9225000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 205 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102557]   = 382.3680
+  eps_gr[102557]    = 5488.6880
+  eps_prot[102557]  = 0.0000
+  eps_zuc[102557]   = 3537.3160
+  epsilon_rich[102557] = 0.8728
+
+
+Struttura: 102712
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 593902.4, calorie richieste: 1980000 
+  Carboidrati totali (kcal): 267256.08 <= 369325.44 <= 356341.44
+  Proteine totali (kcal):   89085.36 <= 104600.96000000002 <= 118780.48000000001
+  Grassi totali (kcal):     118780.48000000001 <= 80704.8 <= 178170.72
+  Zuccheri totali:          26187.2 <= 23082.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 44 
+Peso totale: 474.4
+
+  --- Epsilon (slack) ---
+  eps_car[102712]   = 1298.4000
+  eps_gr[102712]    = 3807.5680
+  eps_prot[102712]  = 0.0000
+  eps_zuc[102712]   = 310.4360
+  epsilon_rich[102712] = 0.7000
+
+
+Struttura: 120292
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 739774.4, calorie richieste: 3780000 
+  Carboidrati totali (kcal): 332898.48000000004 <= 450023.04 <= 443864.64
+  Proteine totali (kcal):   110966.16 <= 134898.56 <= 147954.88
+  Grassi totali (kcal):     147954.88 <= 94442.40000000001 <= 221932.32
+  Zuccheri totali:          28275.2 <= 28126.44
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 84 
+Peso totale: 661.5999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[120292]   = 615.8400
+  eps_gr[120292]    = 5351.2480
+  eps_prot[120292]  = 0.0000
+  eps_zuc[120292]   = 14.8760
+  epsilon_rich[120292] = 0.8043
+
+
+Struttura: 120303
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 261219.2, calorie richieste: 2070000 
+  Carboidrati totali (kcal): 117548.64000000001 <= 155808.0 <= 156731.52
+  Proteine totali (kcal):   39182.88 <= 48896.00000000001 <= 52243.840000000004
+  Grassi totali (kcal):     52243.840000000004 <= 35850.240000000005 <= 78365.76
+  Zuccheri totali:          18440.0 <= 9738.0
+  Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 46 
+Peso totale: 493.11999999999995
+
+  --- Epsilon (slack) ---
+  eps_car[120303]   = 0.0000
+  eps_gr[120303]    = 1639.3600
+  eps_prot[120303]  = 0.0000
+  eps_zuc[120303]   = 870.2000
+  epsilon_rich[120303] = 0.8738
+
+
+Struttura: 102358
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 550659.2, calorie richieste: 2430000 
+  Carboidrati totali (kcal): 247796.63999999998 <= 333446.39999999997 <= 330395.51999999996
+  Proteine totali (kcal):   82598.87999999999 <= 99238.40000000001 <= 110131.84
+  Grassi totali (kcal):     110131.84 <= 70323.84000000001 <= 165197.75999999998
+  Zuccheri totali:          34280.0 <= 20840.399999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 54 
+Peso totale: 694.7199999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102358]   = 305.0880
+  eps_gr[102358]    = 3980.8000
+  eps_prot[102358]  = 0.0000
+  eps_zuc[102358]   = 1343.9600
+  epsilon_rich[102358] = 0.7734
+
+
+Struttura: 102436
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 622270.4, calorie richieste: 2745000 
+  Carboidrati totali (kcal): 280021.68 <= 395648.64 <= 373362.24
+  Proteine totali (kcal):   93340.56 <= 106789.76000000001 <= 124454.08000000002
+  Grassi totali (kcal):     124454.08000000002 <= 72669.6 <= 186681.12
+  Zuccheri totali:          32768.0 <= 24728.04
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 61 
+Peso totale: 661.6
+
+  --- Epsilon (slack) ---
+  eps_car[102436]   = 2228.6400
+  eps_gr[102436]    = 5178.4480
+  eps_prot[102436]  = 0.0000
+  eps_zuc[102436]   = 803.9960
+  epsilon_rich[102436] = 0.7733
+
+
+Struttura: 116807
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 7875000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 175 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[116807]   = 638.8800
+  eps_gr[116807]    = 5899.8880
+  eps_prot[116807]  = 0.0000
+  eps_zuc[116807]   = 976.9160
+  epsilon_rich[116807] = 0.8950
+
+
+Struttura: 120297
+  Peso soddisfazione richiesta: 1e-06 
+  Calorie totali: 771742.4, calorie richieste: 4185000 
+  Carboidrati totali (kcal): 347284.08 <= 466669.43999999994 <= 463045.44
+  Proteine totali (kcal):   115761.36 <= 141676.16 <= 154348.48
+  Grassi totali (kcal):     154348.48 <= 104335.20000000001 <= 231522.72
+  Zuccheri totali:          32196.8 <= 29166.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 93 
+Peso totale: 680.8
+
+  --- Epsilon (slack) ---
+  eps_car[120297]   = 362.4000
+  eps_gr[120297]    = 5001.3280
+  eps_prot[120297]  = 0.0000
+  eps_zuc[120297]   = 302.9960
+  epsilon_rich[120297] = 0.8156
+
+
+Struttura: 102676
+  Peso soddisfazione richiesta: 0.01 
+  Calorie totali: 1173649.6, calorie richieste: 12375000 
+  Carboidrati totali (kcal): 528142.3200000001 <= 708013.44 <= 704189.76
+  Proteine totali (kcal):   176047.44 <= 215570.56 <= 234729.92000000004
+  Grassi totali (kcal):     234729.92000000004 <= 179843.04 <= 352094.88
+  Zuccheri totali:          79624.0 <= 44250.840000000004
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 275 
+Peso totale: 1389.9199999999998
+
+  --- Epsilon (slack) ---
+  eps_car[102676]   = 382.3680
+  eps_gr[102676]    = 5488.6880
+  eps_prot[102676]  = 0.0000
+  eps_zuc[102676]   = 3537.3160
+  epsilon_rich[102676] = 0.9052
+
+
+Struttura: 102570
+  Peso soddisfazione richiesta: 0.0001 
+  Calorie totali: 827038.4, calorie richieste: 8190000 
+  Carboidrati totali (kcal): 372167.28 <= 502611.83999999997 <= 496223.04
+  Proteine totali (kcal):   124055.76 <= 151813.76 <= 165407.68000000002
+  Grassi totali (kcal):     165407.68000000002 <= 106408.8 <= 248111.52
+  Zuccheri totali:          41182.4 <= 31413.239999999998
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 182 
+Peso totale: 911.1999999999999
+
+  --- Epsilon (slack) ---
+  eps_car[102570]   = 638.8800
+  eps_gr[102570]    = 5899.8880
+  eps_prot[102570]  = 0.0000
+  eps_zuc[102570]   = 976.9160
+  epsilon_rich[102570] = 0.8990
+
+
+Struttura: 122854
+  Peso soddisfazione richiesta: 1 
+  Calorie totali: 1757528.0, calorie richieste: 17775000 
+  Carboidrati totali (kcal): 790887.6 <= 1198285.44 <= 1054516.8
+  Proteine totali (kcal):   263629.2 <= 266207.36 <= 351505.60000000003
+  Grassi totali (kcal):     351505.60000000003 <= 211885.92 <= 527258.4
+  Zuccheri totali:          119259.2 <= 74892.84
+  Carboidrati (eccesso), Grassi (difetto), Zuccheri (eccesso)
+
+Numero assistiti: 395 
+Peso totale: 1569.76
+
+  --- Epsilon (slack) ---
+  eps_car[122854]   = 14376.8640
+  eps_gr[122854]    = 13961.9680
+  eps_prot[122854]  = 0.0000
+  eps_zuc[122854]   = 4436.6360
+  epsilon_rich[122854] = 0.9011
+
+Numero assistiti: 63 Peso totale: 651.52
+Numero assistiti: 341 Peso totale: 1605.6
+Numero assistiti: 482 Peso totale: 1528.08
+Numero assistiti: 961 Peso totale: 1792.8
+Numero assistiti: 392 Peso totale: 1569.76
+Numero assistiti: 584 Peso totale: 1792.8
+Numero assistiti: 139 Peso totale: 911.1999999999999
+Numero assistiti: 137 Peso totale: 1228.0
+Numero assistiti: 105 Peso totale: 1059.52
+Numero assistiti: 135 Peso totale: 911.1999999999999
+Numero assistiti: 144 Peso totale: 895.52
+Numero assistiti: 72 Peso totale: 680.8
+Numero assistiti: 111 Peso totale: 1073.12
+Numero assistiti: 55 Peso totale: 623.1999999999999
+Numero assistiti: 48 Peso totale: 680.8
+Numero assistiti: 43 Peso totale: 594.4
+Numero assistiti: 170 Peso totale: 911.1999999999999
+Numero assistiti: 103 Peso totale: 911.1999999999999
+Numero assistiti: 317 Peso totale: 1605.6
+Numero assistiti: 83 Peso totale: 661.5999999999999
+Numero assistiti: 65 Peso totale: 623.1999999999999
+Numero assistiti: 30 Peso totale: 661.5999999999999
+Numero assistiti: 108 Peso totale: 911.1999999999999
+Numero assistiti: 117 Peso totale: 911.1999999999999
+Numero assistiti: 56 Peso totale: 503.2
+Numero assistiti: 98 Peso totale: 579.52
+Numero assistiti: 768 Peso totale: 1686.72
+Numero assistiti: 87 Peso totale: 661.5999999999999
+Numero assistiti: 219 Peso totale: 1427.84
+Numero assistiti: 457 Peso totale: 1552.56
+Numero assistiti: 178 Peso totale: 911.1999999999999
+Numero assistiti: 10 Peso totale: 431.2
+Numero assistiti: 41 Peso totale: 680.8
+Numero assistiti: 204 Peso totale: 1389.9199999999998
+Numero assistiti: 106 Peso totale: 1228.0
+Numero assistiti: 144 Peso totale: 911.1999999999999
+Numero assistiti: 244 Peso totale: 1389.9199999999998
+Numero assistiti: 223 Peso totale: 1389.9199999999998
+Numero assistiti: 402 Peso totale: 1569.76
+Numero assistiti: 529 Peso totale: 1792.8
+Numero assistiti: 130 Peso totale: 911.1999999999999
+Numero assistiti: 280 Peso totale: 1389.9199999999998
+Numero assistiti: 91 Peso totale: 464.31999999999994
+Numero assistiti: 52 Peso totale: 680.8
+Numero assistiti: 682 Peso totale: 1792.8
+Numero assistiti: 100 Peso totale: 661.5999999999999
+Numero assistiti: 202 Peso totale: 1394.0
+Numero assistiti: 724 Peso totale: 1792.8
+Numero assistiti: 185 Peso totale: 871.04
+Numero assistiti: 156 Peso totale: 911.1999999999999
+Numero assistiti: 5 Peso totale: 196.16
+Numero assistiti: 281 Peso totale: 1389.9199999999998
+Numero assistiti: 54 Peso totale: 464.31999999999994
+Numero assistiti: 273 Peso totale: 1389.9199999999998
+Numero assistiti: 96 Peso totale: 464.31999999999994
+Numero assistiti: 210 Peso totale: 1389.9199999999998
+Numero assistiti: 15 Peso totale: 694.7199999999999
+Numero assistiti: 50 Peso totale: 594.4
+Numero assistiti: 86 Peso totale: 464.31999999999994
+Numero assistiti: 104 Peso totale: 1228.0
+Numero assistiti: 90 Peso totale: 676.0
+Numero assistiti: 49 Peso totale: 623.200002654609
+Numero assistiti: 399 Peso totale: 1569.76
+Numero assistiti: 90 Peso totale: 503.2
+Numero assistiti: 458 Peso totale: 1528.08
+Numero assistiti: 46 Peso totale: 594.4
+Numero assistiti: 283 Peso totale: 1389.9199999999998
+Numero assistiti: 84 Peso totale: 661.5999999999999
+Numero assistiti: 148 Peso totale: 911.1999999999999
+Numero assistiti: 150 Peso totale: 911.1999999999999
+Numero assistiti: 462 Peso totale: 1528.08
+Numero assistiti: 31 Peso totale: 464.31999999999994
+Numero assistiti: 163 Peso totale: 1059.52
+Numero assistiti: 258 Peso totale: 1389.9199999999998
+Numero assistiti: 299 Peso totale: 1389.9199999999998
+Numero assistiti: 355 Peso totale: 1569.76
+Numero assistiti: 53 Peso totale: 464.31999999999994
+Numero assistiti: 73 Peso totale: 661.5999999999999
+Numero assistiti: 29 Peso totale: 652.6400075094733
+Numero assistiti: 20 Peso totale: 464.31999999999994
+Numero assistiti: 237 Peso totale: 1389.9199999999998
+Numero assistiti: 29 Peso totale: 479.2
+Numero assistiti: 418 Peso totale: 1552.56
+Numero assistiti: 97 Peso totale: 503.2
+Numero assistiti: 205 Peso totale: 1389.9199999999998
+Numero assistiti: 44 Peso totale: 474.4
+Numero assistiti: 84 Peso totale: 661.5999999999999
+Numero assistiti: 46 Peso totale: 493.11999999999995
+Numero assistiti: 54 Peso totale: 694.7199999999999
+Numero assistiti: 61 Peso totale: 661.6
+Numero assistiti: 175 Peso totale: 911.1999999999999
+Numero assistiti: 93 Peso totale: 680.8
+Numero assistiti: 275 Peso totale: 1389.9199999999998
+Numero assistiti: 182 Peso totale: 911.1999999999999
+Numero assistiti: 395 Peso totale: 1569.76
