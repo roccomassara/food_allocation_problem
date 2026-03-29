@@ -38,6 +38,8 @@ Dopo aver verificato di aver impostato correttamente il file_path del file di in
 
 python3 percorso/del/programma.py
 
+Una volta terminata la simulazione saranno generati i 3 file di output precedentemente descritti. 
+
 ## Bibliografia
 
 Tutto il materiale di terze parti che è stato utilizzato, è stato citato nella bibliografia presente al termine del pdf della tesi.
