@@ -16,6 +16,21 @@ Al di fuori della directory sono presenti i file in formato pdf della tesi di la
 
 ## Descrizione della simulazione
 
+ATTENZIONE: prima di avviare l'esecuzione di OptimizationModel.py assicurarsi di aver installato tutte le librerie presenti nel preambolo del programma: 
+- import pyomo.environ as pyo
+- import pandas as pd
+- import datetime
+- import os
+- import math
+- import openpyxl
+- from collections import defaultdict
+- from itertools import combinations
+- from dateutil.relativedelta import relativedelta
+- from datetime import date
+- import time
+Inoltre, raccomandiamo l'utilizzo di gurobi 12.0.3 come solver per l'esecuzione del programma, come da utilizzo per i test qui presenti.
+
+ 
 
 
 ## Bibliografia
