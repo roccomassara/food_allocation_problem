@@ -43,3 +43,8 @@ Una volta terminata la simulazione saranno generati i 3 file di output precedent
 ## Bibliografia
 
 Tutto il materiale di terze parti che è stato utilizzato, è stato citato nella bibliografia presente al termine del pdf della tesi.
+
+## Autore
+
+Rocco Massara
+Laurea Triennale in Informatica presso Università degli Studi di Firenze.
