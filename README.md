@@ -50,6 +50,6 @@ Rocco Massara
 
 Laurea Triennale in Informatica presso Università degli Studi di Firenze.
 
-## 📜 Licenza
+## Licenza
 
 Questo progetto è distribuito sotto licenza MIT.
