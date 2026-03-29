@@ -33,7 +33,11 @@ ATTENZIONE: prima di avviare l'esecuzione di OptimizationModel.py assicurarsi di
 Inoltre, raccomandiamo l'utilizzo di gurobi 12.0.3 come solver per l'esecuzione del programma, come da utilizzo per i test qui presenti.
 
 ### Simulazione
- 
+
+Dopo aver verificato di aver impostato correttamente il file_path del file di input .xlsx all'interno del programma (linea 20), eseguire il comando seguente da terminale:
+
+python3 percorso/del/programma.py
+
 ## Bibliografia
 
 Tutto il materiale di terze parti che è stato utilizzato, è stato citato nella bibliografia presente al termine del pdf della tesi.
