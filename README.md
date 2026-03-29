@@ -47,4 +47,5 @@ Tutto il materiale di terze parti che è stato utilizzato, è stato citato nella
 ## Autore
 
 Rocco Massara
+
 Laurea Triennale in Informatica presso Università degli Studi di Firenze.
