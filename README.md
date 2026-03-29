@@ -10,7 +10,9 @@ Nella directory Food allocation problem è presente:
 - 5 directory suddivise in base a tali settimane e contenenti ciascuna 3 tipi di file di output:
   - assegnazione.xlsx xontiene la suddivisione in colli di merce di ciascuna partita alle relative strutture caritative.
   - output_modello.xlsx rappresenta il file excel riguardante l'output che richiede l'azienda per il corretto inserimento massivo dei dati riguardanti ciascun ordine nel database aziendale.
-  - output_modello.txt contenente i risultati delle sperimentazioni, con i relativi errori sulle variabili di scarto della funzione obiettivo e mostra, in modo più approfondito, il risultato della suddivisione di prodotti per ciascuna struttura caritativa. 
+  - output_modello.txt contenente i risultati delle sperimentazioni, con i relativi errori sulle variabili di scarto della funzione obiettivo e mostra, in modo più approfondito, il risultato della suddivisione di prodotti per ciascuna struttura caritativa.
+
+Al di fuori della directory sono presenti i file in formato pdf della tesi di laurea triennale e il relativo abstract. 
 
 ## Descrizione della simulazione
 
