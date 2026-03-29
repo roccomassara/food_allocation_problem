@@ -28,6 +28,7 @@ ATTENZIONE: prima di avviare l'esecuzione di OptimizationModel.py assicurarsi di
 - from dateutil.relativedelta import relativedelta
 - from datetime import date
 - import time
+  
 Inoltre, raccomandiamo l'utilizzo di gurobi 12.0.3 come solver per l'esecuzione del programma, come da utilizzo per i test qui presenti.
 
  
