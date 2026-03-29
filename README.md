@@ -49,3 +49,7 @@ Tutto il materiale di terze parti che è stato utilizzato, è stato citato nella
 Rocco Massara
 
 Laurea Triennale in Informatica presso Università degli Studi di Firenze.
+
+## 📜 Licenza
+
+Questo progetto è distribuito sotto licenza MIT.
