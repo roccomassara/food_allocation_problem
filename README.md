@@ -38,7 +38,7 @@ Dopo aver verificato di aver impostato correttamente il file_path del file di in
 
 python3 percorso/del/programma.py
 
-A questo punto sono inseriti i valori dei pesi della funzione obiettivo come dati in input. Consideriamo, come da linee guida preseti nella tesi, i seguenti valori: 
+A questo punto sono inseriti i valori dei pesi della funzione obiettivo come dati in input. Consideriamo, come da linee guida preseti nella tesi, i seguenti valori per i test effettutati nel seguente repository: 
 
 - Errore nell'azzeramento della partita: 1000
 - Errore nel bilanciamento dei valori nutrizionali: 0.00001
