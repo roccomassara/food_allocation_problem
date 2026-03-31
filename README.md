@@ -38,6 +38,15 @@ Dopo aver verificato di aver impostato correttamente il file_path del file di in
 
 python3 percorso/del/programma.py
 
+A questo punto sono inseriti i valori dei pesi della funzione obiettivo come dati in input. Consideriamo, come da linee guida preseti nella tesi, i seguenti valori: 
+
+- Errore nell'azzeramento della partita: 1000
+- Errore nel bilanciamento dei valori nutrizionali: 0.00001
+- Errore nella scelta del numero dei prodotti: 1000
+- Errore nell'assegnazione di colli rispetto al dominio di x: 100
+- Peso nella scelta del numero di prodotti tra dimensione strutture: 10
+- Errore sul peso del pancale: 100
+
 Una volta terminata la simulazione saranno generati i 3 file di output precedentemente descritti. 
 
 ## Bibliografia
