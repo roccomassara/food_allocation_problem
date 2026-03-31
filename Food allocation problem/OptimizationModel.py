@@ -136,12 +136,12 @@ for s in c_St:
     apporto_calorico_struttura[s] = richiesta[s]
 
 #Definisco gli input per i pesi della funzione obiettivo
-w_azzeramento = float(input("Definisci il peso per l'errore nell'azzeramento della partita: "))
+w_quantita = float(input("Definisci il peso per l'errore nell'azzeramento della partita: "))
 w_valori_nutrizionali = float(input("Definisci il peso per l'errore nel bilanciamento dei valori nutrizionali: "))
-w_prodotti = float(input("Definisci il peso per l'errore nella scelta del numero di prodotti: "))
-w_assegnazione_piano = float(input("Definisci il peso per l'errore nell'assegnazione di colli rispetto al dominio di x: "))
+w_prod = float(input("Definisci il peso per l'errore nella scelta del numero di prodotti: "))
+w_assegnazione = float(input("Definisci il peso per l'errore nell'assegnazione di colli rispetto al dominio di x: "))
 w_differenza = float(input("Definisci il peso per la differenza nella scelta del numero di prodotti tra dimensione strutture: "))
-w_peso = float(input("Definisci il peso per il vincolo sul peso totale del pancale: "))
+w_chili = float(input("Definisci il peso per il vincolo sul peso totale del pancale: "))
 
 c = {}
 for s in c_St:
@@ -162,28 +162,28 @@ for s in c_St:
         for par in partite:
             a[s, par] = c[s, prod]
 
-PESO_RICHIESTA = {}
+w_richiesta = {}
 PESO_MASSIMO = {}
 dimensione = {}
 for s in c_St:
     if assistiti[s] <= 100:
-        PESO_RICHIESTA[s] = 0.000001
+        w_richiesta[s] = 0.000001
         dimensione[s] = 1
         PESO_MASSIMO[s] = 700 * dimensione[s]
     elif assistiti[s] > 100 and assistiti[s] <= 200:
-        PESO_RICHIESTA[s] = 0.0001
+        w_richiesta[s] = 0.0001
         dimensione[s] = 2
         PESO_MASSIMO[s] = 700 * dimensione[s]
     elif assistiti[s]> 200 and assistiti[s] <= 300:
-        PESO_RICHIESTA[s] = 0.01
+        w_richiesta[s] = 0.01
         dimensione[s] = 3
         PESO_MASSIMO[s] = 700 * dimensione[s]
     elif assistiti[s]> 300 and assistiti[s] <= 500:
-        PESO_RICHIESTA[s] = 1
+        w_richiesta[s] = 1
         dimensione[s] = 4
         PESO_MASSIMO[s] = 700 * dimensione[s]
     else:
-        PESO_RICHIESTA[s] = 100
+        w_richiesta[s] = 100
         dimensione[s] = 5
         PESO_MASSIMO[s] = 700 * dimensione[s]
 
@@ -385,7 +385,7 @@ model.peso_massimo = pyo.Constraint(model.c_St, rule = peso_massimo_rule)
 
 #FUNZIONE OBIETTIVO
 def obiettivo_rule(model): 
-    return (sum(model.eps_qc[par] for par in model.c_Pa)*w_azzeramento + (model.eps_prod)* w_prodotti  + sum(model.eps_rich[s]*PESO_RICHIESTA[s] for s in model.c_St) + sum(model.eps_ass[s, par] for s in model.c_St for par in model.c_Pa)*w_assegnazione_piano + sum( model.eps_car[s]+ model.eps_gr[s]+ model.eps_prot[s]+ model.eps_zuc[s] for s in model.c_St)*w_valori_nutrizionali + sum(model.eps_peso[s] for s in c_St)*w_peso + sum(model.eps_diff[q] for q in model.tr)*w_differenza) 
+    return (sum(model.eps_qc[par] for par in model.c_Pa)*w_quantita + (model.eps_prod)* w_prod  + sum(model.eps_rich[s]*w_richiesta[s] for s in model.c_St) + sum(model.eps_ass[s, par] for s in model.c_St for par in model.c_Pa)*w_assegnazione + sum( model.eps_car[s]+ model.eps_gr[s]+ model.eps_prot[s]+ model.eps_zuc[s] for s in model.c_St)*w_valori_nutrizionali + sum(model.eps_peso[s] for s in c_St)*w_chili + sum(model.eps_diff[q] for q in model.tr)*w_differenza) 
 model.obiettivo = pyo.Objective(rule=obiettivo_rule, sense=pyo.minimize)
 
 start_time = time.time()
@@ -411,11 +411,12 @@ with open("output_modellocopia.txt", "w") as file:
     totale_prodotti = sum(pyo.value(model.w[prod]) for prod in set(c_Pr))
 
     file.write("Pesi della funzione obiettivo\n")
-    file.write(f"Azzeramento partita: {w_azzeramento}\n")
-    file.write(f"Peso scelta dei prodotti: {w_prodotti}\n")
-    file.write(f"Peso assegnazione in piani: {w_assegnazione_piano}\n")
+    file.write(f"Azzeramento partita: {w_quantita}\n")
+    file.write(f"Peso scelta dei prodotti: {w_prod}\n")
+    file.write(f"Peso assegnazione in piani: {w_assegnazione}\n")
     file.write(f"Peso assegnazione valori nutrizionali: {w_valori_nutrizionali}\n")
     file.write(f"Peso assegnazione differenza di dimensione struttura: {w_differenza}\n")
+    file.write(f"Peso assegnazione chili del pancale: {w_chili}\n")
     file.write(f"Totale prodotti selezionati: {totale_prodotti}\n\n")
 
     for prod in set(c_Pr):
@@ -454,7 +455,7 @@ with open("output_modellocopia.txt", "w") as file:
         zucch_max = sum(carboidrati[p] * pyo.value(model.x[s, p] * peso[p] * 10) for p in c_Pa) * 0.25
 
         file.write(f"\nStruttura: {s}\n")
-        file.write(f"  Peso soddisfazione richiesta: {PESO_RICHIESTA[s]} \n")
+        file.write(f"  Peso soddisfazione richiesta: {w_richiesta[s]} \n")
         file.write(f"  Calorie totali: {cal}, calorie richieste: {r} \n")
         file.write(f"  Carboidrati totali (kcal): {carbo_min} <= {carbo} <= {carbo_max}\n")
         file.write(f"  Proteine totali (kcal):   {prot_min} <= {prot} <= {prot_max}\n")
